@@ -15,20 +15,21 @@
 
 ## 📁 Estructura del proyecto
 
+```
 ProMetrics/ 
 ├── main.py # Punto de entrada del programa 
 ├── index.html # Interfaz web principal 
 ├── Estilos/ # Archivos CSS para la interfaz 
-│ └── Estilos.css 
+│   └── Estilos.css 
 ├── Base_Datos/ # Archivos JSON con datos de cartas y formaciones 
-│ ├── Nombres.json 
-│ ├── Formaciones.json 
-│ └── Jugadores.json 
+│   ├── Nombres.json 
+│   ├── Formaciones.json 
+│   └── Jugadores.json 
 ├── Modulos/ # Módulos Python con lógica separada 
-│ ├── Analisis.py # Lógica de análisis táctico y comparativo 
-│ ├── BusquedaJugadores.py# Scraping asincrónico de estadísticas 
-│ └── Ingreso.py # Manejo de ingreso y validación de datos
-
+│   ├── Analisis.py # Lógica de análisis táctico y comparativo 
+│   ├── BusquedaJugadores.py# Scraping asincrónico de estadísticas 
+│   └── Ingreso.py # Manejo de ingreso y validación de datos
+```
 ---
 
 ## 🚀 Estado actual del proyecto
