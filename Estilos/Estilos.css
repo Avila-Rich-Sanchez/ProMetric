@@ -1,4 +1,131 @@
-ul{
-    font-family: 'Courier New', Courier, monospace;
-    list-style: none
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.encabezado{
+    background-color: transparent;
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    border-bottom: solid 2px black;
+    box-shadow: #228b22 2px 2px 8px;
+}
+
+.titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 2vw;
+    text-shadow: #228b22 2px 2px 8px;
+}
+
+.busqueda_usuario{
+    margin-left: auto;
+    width: 50%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.busqueda_usuario::placeholder{
+    color: #9a9a9a;
+    font-family: arial;
+    font-style: italic;
+}
+
+.busqueda_usuario:focus{
+    box-shadow: black 1px 1px 8px ;
+}
+
+.menu_enlaces{
+    margin-left: auto;
+}
+
+.menu_enlaces ul li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu_enlaces a{
+    display: inline;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    text-shadow: #228b22 2px 2px 8px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    color: #228b22;
+}
+
+.menu_boton{
+    width: 30px;
+    height: 40px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.menu_boton:hover{
+    cursor: pointer;
+}
+
+.menu_boton img{
+    width: 20px;
+    height: 20px;
+}
+
+.lista_desplegable{
+    position: relative;
+    display: inline-block;
+}
+
+.contenido_lista_desplegable{
+    display: none;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: #f5f5f5;
+    min-width: 120px;
+    min-height: 90px;
+    text-align: right;
+    box-shadow: #9a9a9a 2px 2px 8px;
+    border-radius: 5px;
+}
+
+.contenido_lista_desplegable a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px 13px 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.lista_desplegable:hover .contenido_lista_desplegable{
+    display: block;
+}
+
+
+
